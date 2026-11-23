@@ -1,0 +1,6 @@
+node_modules/
+.venv/
+node/
+uv/
+salida/
+.DS_Store

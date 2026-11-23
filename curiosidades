@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd "$(dirname "$0")"
+export PATH="$PWD/node/bin:$PATH"
+exec .venv/bin/python herramientas/curiosidades.py "$@"
